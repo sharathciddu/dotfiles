@@ -1,1 +1,110 @@
-/Users/sharathciddu/.vimrc
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+set number
+"set listchars=tab:▸\ ,trail:·
+"set list
+
+set autoindent smartindent
+set smarttab
+set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
+
+" Disabled code folding. It can be weird sometimes.
+set nofoldenable
+
+" Improve the backspace key.
+set backspace=indent,eol,start
+
+" Highlight searches.
+set hlsearch
+
+" Ignore case of searches.
+set ignorecase
+
+" If the search contains an upper-case character, become case sensitive.
+set smartcase
+
+" Disable the swap files.
+set noswapfile
+
+" Don't reset cursor to start of line when moving around.
+set nostartofline
+
+" Always show status line.
+set laststatus=2
+
+let javascript_fold=0
+
+colorscheme github
+"colorscheme monokai
+"colorscheme codeschool
+
+set guifont=Monaco:h12
+
+autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
+autocmd FileType html noremap <buffer> <c-f> :call HtmlBeautify()<cr>
+autocmd FileType css noremap <buffer> <c-f> :call CSSBeautify()<cr>
+
+autocmd FileType javascript vnoremap <buffer>  <c-f> :call RangeJsBeautify()<cr>
+autocmd FileType html vnoremap <buffer> <c-f> :call RangeHtmlBeautify()<cr>
+autocmd FileType css vnoremap <buffer> <c-f> :call RangeCSSBeautify()<cr>
+
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+" alternatively, pass a path where Vundle should install bundles
+"let path = '~/some/path/here'
+"call vundle#rc(path)
+
+" let Vundle manage Vundle, required
+Bundle 'gmarik/vundle'
+
+Bundle 'Valloric/YouCompleteMe'
+" These are the tweaks I apply to YCM's config, you don't need them but they might help.
+" YCM gives you popups and splits by default that some people might not like, so these should tidy it up a bit for you.
+let g:ycm_add_preview_to_completeopt=0
+let g:ycm_confirm_extra_conf=0
+set completeopt-=preview
+Bundle 'marijnh/tern_for_vim'
+
+Bundle 'jelera/vim-javascript-syntax'
+Bundle 'pangloss/vim-javascript'
+Bundle 'nathanaelkane/vim-indent-guides'
+
+Bundle 'maksimr/vim-jsbeautify'
+Bundle 'einars/js-beautify'
+
+" For adding the closing bracket or quote etc.
+Bundle 'Raimondi/delimitMate'
+
+Bundle 'scrooloose/syntastic'
+let g:syntastic_check_on_open=1
+
+"Bundle 'scrooloose/nerdtree'
+"autocmd vimenter * NERDTree
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+Bundle 'kien/ctrlp.vim'
+let g:ctrlp_custom_ignore='node_modules\|DS_Store\|git'
+noremap <D-p> :call CtrlP<cr>
+
+Bundle 'walm/jshint.vim'
+
+" The following are examples of different formats supported.
+" " Keep bundle commands between here and filetype plugin indent on.
+" " scripts on GitHub repos
+" Bundle 'tpope/vim-fugitive'
+" Bundle 'Lokaltog/vim-easymotion'
+" Bundle 'tpope/vim-rails.git'
+" " The sparkup vim script is in a subdirectory of this repo called vim.
+" " Pass the path to set the runtimepath properly.
+" Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+" " scripts from http://vim-scripts.org/vim/scripts.html
+" Bundle 'L9'
+" Bundle 'FuzzyFinder'
+" " scripts not on GitHub
+" Bundle 'git://git.wincent.com/command-t.git'
+" " git repos on your local machine (i.e. when working on your own plugin)
+" Bundle 'file:///home/gmarik/path/to/plugin'
+
+filetype plugin indent on     " required
