@@ -104,6 +104,8 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'scrooloose/syntastic'
 let g:syntastic_check_on_open=1
 
+Bundle 'SearchComplete'
+
 "Bundle 'scrooloose/nerdtree'
 "autocmd vimenter * NERDTree
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
