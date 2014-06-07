@@ -60,7 +60,7 @@ colorscheme github
 "colorscheme monokai
 "colorscheme codeschool
 
-set guifont=Inconsolata\ for\ Powerline:h18
+" set guifont=Inconsolata\ for\ Powerline:h18
 let g:Powerline_symbols = 'fancy'
 
 autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
