@@ -8,6 +8,7 @@ set number
 "set listchars=tab:▸\ ,trail:·
 "set list
 
+
 set splitright
 "set the split to the right
 
@@ -56,11 +57,16 @@ set laststatus=2
 
 let javascript_fold=0
 
-colorscheme github
+"colorscheme dracula
 "colorscheme monokai
 "colorscheme codeschool
+"colorscheme solarized
 
-" set guifont=Inconsolata\ for\ Powerline:h18
+"syntax enable
+set background=dark
+"colorscheme Tomorrow-Night
+
+"set guifont=Meslo\ LG\ L\ Regular\ for\ Powerline
 let g:Powerline_symbols = 'fancy'
 
 autocmd FileType javascript noremap <buffer>  <c-f> :call JsBeautify()<cr>
@@ -97,6 +103,9 @@ Bundle 'nathanaelkane/vim-indent-guides'
 
 Bundle 'maksimr/vim-jsbeautify'
 Bundle 'einars/js-beautify'
+
+" Colors
+Bundle 'zenorocha/dracula-theme'
 
 " For adding the closing bracket or quote etc.
 Bundle 'Raimondi/delimitMate'
@@ -145,8 +154,11 @@ set term=xterm-256color
 set termencoding=utf-8
 
 if has("gui_running")
-   let s:uname = system("uname")
-   if s:uname == "Darwin\n"
-      set guifont=Inconsolata\ for\ Powerline:h18
+	colorscheme solarized
+	let s:uname = system("uname")
+	if s:uname == "Darwin\n"
+		set guifont=Inconsolata\ for\ Powerline:h18
+	else
+		set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 14
    endif
 endif
