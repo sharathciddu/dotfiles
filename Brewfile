@@ -10,5 +10,16 @@ brew 'bash' # Latest Bash version
 brew 'the_silver_searcher'
 brew 'wget'
 
+brew 'rename'
+brew 'xz'
+brew 'openssl'
+brew 'readline'
+brew 'gettext'
+
 # Kubernetes
-brew 'docker'
+cask 'docker'
+
+
+# Apps
+cask 'caffeine'
+
