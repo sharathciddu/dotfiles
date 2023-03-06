@@ -22,4 +22,10 @@ cask 'docker'
 
 # Apps
 cask 'caffeine'
+cask 'github'
 
+# Editors
+cask 'intellij-idea-ce'
+cask 'pycharm-ce'
+cask 'goland'
+cask 'visual-studio-code'
