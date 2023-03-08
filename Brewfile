@@ -16,6 +16,9 @@ brew 'openssl'
 brew 'readline'
 brew 'gettext'
 
+# Libraries and Runtime
+brew 'go'
+
 # Kubernetes
 cask 'docker'
 
