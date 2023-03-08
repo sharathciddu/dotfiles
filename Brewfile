@@ -15,6 +15,8 @@ brew 'xz'
 brew 'openssl'
 brew 'readline'
 brew 'gettext'
+brew 'hyperkit'
+brew 'pyenv'
 
 # Libraries and Runtime
 brew 'go'
@@ -25,6 +27,7 @@ cask 'docker'
 
 # Apps
 cask 'caffeine'
+cask 'spectacle'
 cask 'github'
 
 # Editors
