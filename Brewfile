@@ -9,6 +9,7 @@ tap 'homebrew/bundle'
 brew 'bash' # Latest Bash version
 brew 'the_silver_searcher'
 brew 'wget'
+brew 'neovim'
 
 brew 'rename'
 brew 'xz'
