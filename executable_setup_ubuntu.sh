@@ -1,9 +1,9 @@
 #!/bin/bash
 
-install_zshtools() {
+install_tools() {
 	sudo apt install -y autojump
 	sudo apt install -y tmux
-	sudo apt install -y pyenv
+	sudo apt install -y neovim
 }
 
 install_pyenv() {
@@ -18,5 +18,5 @@ if [ `uname` != "Linux" ]; then
 fi
 
 sudo apt update
-install_zshtools
+install_tools
 install_pyenv
