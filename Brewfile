@@ -10,6 +10,8 @@ brew 'bash' # Latest Bash version
 brew 'the_silver_searcher'
 brew 'wget'
 brew 'neovim'
+brew 'autojump'
+brew 'tree'
 
 brew 'rename'
 brew 'xz'
