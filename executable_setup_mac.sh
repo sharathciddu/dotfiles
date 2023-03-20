@@ -23,3 +23,4 @@ brew tap homebrew/cask
 brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
+go install golang.org/x/tools/cmd/godoc@latest
