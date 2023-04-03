@@ -20,6 +20,7 @@ brew 'readline'
 brew 'gettext'
 brew 'hyperkit'
 brew 'pyenv'
+brew 'node'
 
 # Libraries and Runtime
 brew 'go'
