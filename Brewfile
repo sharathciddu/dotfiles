@@ -21,6 +21,7 @@ brew 'gettext'
 brew 'hyperkit'
 brew 'pyenv'
 brew 'node'
+brew 'ffmpeg'
 
 # Libraries and Runtime
 brew 'go'
