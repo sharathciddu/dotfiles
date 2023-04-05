@@ -11,3 +11,7 @@ alias git-vendor-reset="git submodule init && git submodule sync && git submodul
 tree-find() {
 	tree | grep $1
 }
+
+find-name() {
+	find . -name $1
+}
