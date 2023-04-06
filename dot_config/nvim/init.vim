@@ -1,3 +1,9 @@
+" Change the setting to make sure vim and nvim share the rc files
+set runtimepath^=~/.vim runtimepath+=~/.vim/after
+let &packpath=&runtimepath
+source ~/.vim/vimrc
+
+
 " Install vim-plug if not found
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
