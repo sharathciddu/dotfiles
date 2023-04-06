@@ -1,0 +1,14 @@
+set nocompatible
+
+set encoding=utf-8
+set number
+
+set autoindent smartindent
+set smarttab
+
+
+" Search related config.
+set hlsearch
+set ignorecase
+set smartcase
+
