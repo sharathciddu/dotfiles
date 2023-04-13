@@ -1,3 +1,5 @@
+# Install using 'brew bundle install'
+
 # Taps
 tap 'homebrew/cask'
 tap 'homebrew/cask-fonts'
@@ -29,6 +31,10 @@ brew 'go'
 # Kubernetes
 cask 'docker'
 
+# Browsers
+brew 'microsoft-edge'
+brew 'firefox'
+brew 'google-chrome'
 
 # Apps
 cask 'caffeine'
