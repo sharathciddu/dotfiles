@@ -32,9 +32,9 @@ brew 'go'
 cask 'docker'
 
 # Browsers
-brew 'microsoft-edge'
-brew 'firefox'
-brew 'google-chrome'
+cask 'microsoft-edge'
+cask 'firefox'
+cask 'google-chrome'
 
 # Apps
 cask 'caffeine'
