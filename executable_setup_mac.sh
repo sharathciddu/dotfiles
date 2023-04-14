@@ -23,4 +23,10 @@ brew tap homebrew/cask
 brew tap homebrew/bundle
 brew bundle --file ./Brewfile
 
+# Golang
 go install golang.org/x/tools/cmd/godoc@latest
+
+if [[ $(uname -m) == 'arm64' ]]; then
+  sudo softwareupdate --install-rosetta --agree-to-license
+fi
+
