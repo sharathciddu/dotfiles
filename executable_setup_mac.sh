@@ -30,3 +30,7 @@ if [[ $(uname -m) == 'arm64' ]]; then
   sudo softwareupdate --install-rosetta --agree-to-license
 fi
 
+# Cocoapods
+echo "Installing cocoapods"
+sudo gem install activesupport
+sudo gem install cocoapods
