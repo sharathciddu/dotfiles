@@ -49,3 +49,5 @@ cask 'pycharm-ce'
 cask 'goland'
 cask 'visual-studio-code'
 
+# App store
+mas 'Xcode', id: 497799835
