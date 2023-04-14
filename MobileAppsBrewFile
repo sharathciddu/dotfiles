@@ -1,0 +1,15 @@
+
+# Install using 'brew bundle install --file ./MobileAppsBrewfile'
+
+# Taps
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/bundle'
+
+# Android
+cask 'android-sdk'
+cask 'android-studio'
+
+# Flutter
+cask 'flutter'
