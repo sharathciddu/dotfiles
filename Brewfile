@@ -46,3 +46,6 @@ cask 'intellij-idea-ce'
 cask 'pycharm-ce'
 cask 'goland'
 cask 'visual-studio-code'
+
+# Flutter
+cask 'flutter'
