@@ -42,6 +42,7 @@ cask 'google-chrome'
 cask 'caffeine'
 cask 'spectacle'
 cask 'github'
+cask 'iterm2'
 
 # Editors
 cask 'intellij-idea-ce'
