@@ -26,6 +26,7 @@ brew 'hyperkit'
 brew 'pyenv'
 brew 'node'
 brew 'ffmpeg'
+brew 'pure'
 
 # Libraries and Runtime
 brew 'go'
