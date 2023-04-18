@@ -43,6 +43,7 @@ cask 'caffeine'
 cask 'spectacle'
 cask 'github'
 cask 'iterm2'
+cask 'beyond-compare'
 
 # Editors
 cask 'intellij-idea-ce'
