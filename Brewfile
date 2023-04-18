@@ -26,6 +26,7 @@ brew 'pyenv'
 brew 'node'
 brew 'ffmpeg'
 brew 'pure'
+brew 'wget'
 
 # Libraries and Runtime
 brew 'go'
