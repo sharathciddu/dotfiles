@@ -27,6 +27,7 @@ brew 'node'
 brew 'ffmpeg'
 brew 'pure'
 brew 'wget'
+brew 'kubernetes-cli'
 
 # Libraries and Runtime
 brew 'go'
