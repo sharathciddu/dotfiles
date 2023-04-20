@@ -33,7 +33,7 @@ brew 'fzf'
 brew 'go'
 
 # Install cloud tools
-brew 'aws-cli'
+brew 'awscli'
 
 # Kubernetes
 cask 'docker'
