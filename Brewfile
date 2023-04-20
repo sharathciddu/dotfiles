@@ -32,6 +32,9 @@ brew 'fzf'
 # Libraries and Runtime
 brew 'go'
 
+# Install cloud tools
+brew 'aws-cli'
+
 # Kubernetes
 cask 'docker'
 
