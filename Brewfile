@@ -50,6 +50,7 @@ cask 'github'
 cask 'iterm2'
 cask 'beyond-compare'
 cask 'figma'
+cask 'postman'
 
 # Editors
 cask 'intellij-idea-ce'
