@@ -49,6 +49,7 @@ cask 'spectacle'
 cask 'github'
 cask 'iterm2'
 cask 'beyond-compare'
+cask 'figma'
 
 # Editors
 cask 'intellij-idea-ce'
