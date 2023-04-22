@@ -17,3 +17,6 @@ cask 'android-ndk'
 
 # Flutter
 cask 'flutter'
+
+# iOS
+brew 'swift-format'
