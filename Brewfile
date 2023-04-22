@@ -38,6 +38,9 @@ brew 'awscli'
 # Kubernetes
 cask 'docker'
 
+# Mobile Apps Dev
+cask 'swift-format'
+
 # Browsers
 cask 'microsoft-edge'
 cask 'firefox'
