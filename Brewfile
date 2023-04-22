@@ -39,7 +39,7 @@ brew 'awscli'
 cask 'docker'
 
 # Mobile Apps Dev
-cask 'swift-format'
+brew 'swift-format'
 
 # Browsers
 cask 'microsoft-edge'
