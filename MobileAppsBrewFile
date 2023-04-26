@@ -7,9 +7,6 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
-# Java
-tap 'temurin8'
-
 # Android
 cask 'android-sdk'
 cask 'android-studio'
