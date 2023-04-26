@@ -20,3 +20,5 @@ cask 'flutter'
 
 # iOS
 brew 'swift-format'
+brew 'swiftformat'
+cask 'swiftformat-for-xcode'
