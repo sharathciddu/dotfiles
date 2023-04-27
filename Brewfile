@@ -28,6 +28,7 @@ brew 'ffmpeg'
 brew 'pure'
 brew 'wget'
 brew 'fzf'
+brew 'watchexec'
 
 # Libraries and Runtime
 brew 'go'
