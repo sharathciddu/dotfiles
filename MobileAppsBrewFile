@@ -20,3 +20,6 @@ brew 'cocoapods'
 brew 'swift-format'
 brew 'swiftformat'
 cask 'swiftformat-for-xcode'
+
+# Firebase
+brew 'firebase-cli'
