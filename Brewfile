@@ -37,6 +37,7 @@ brew 'go'
 
 # Install cloud tools
 brew 'awscli'
+cask 'google-cloud-sdk'
 
 # Kubernetes
 cask 'docker'
