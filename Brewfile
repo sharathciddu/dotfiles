@@ -9,7 +9,6 @@ tap 'homebrew/bundle'
 brew 'mas'
 
 # Binaries
-
 brew 'autojump'
 brew 'bash' # Latest Bash version
 brew 'ffmpeg'
@@ -32,6 +31,16 @@ brew 'wget'
 brew 'wget'
 brew 'xz'
 
+# Apps
+cask 'beyond-compare'
+cask 'caffeine'
+cask 'figma'
+cask 'github'
+cask 'iterm2'
+cask 'meld'
+cask 'postman'
+cask 'spectacle'
+
 # Libraries and Runtime
 brew 'go'
 
@@ -50,14 +59,6 @@ cask 'microsoft-edge'
 cask 'firefox'
 cask 'google-chrome'
 
-# Apps
-cask 'caffeine'
-cask 'spectacle'
-cask 'github'
-cask 'iterm2'
-cask 'beyond-compare'
-cask 'figma'
-cask 'postman'
 
 # Editors
 cask 'intellij-idea-ce'
