@@ -51,9 +51,6 @@ cask 'google-cloud-sdk'
 # Kubernetes
 cask 'docker'
 
-# Mobile Apps Dev
-brew 'swift-format'
-
 # Browsers
 cask 'microsoft-edge'
 cask 'firefox'
