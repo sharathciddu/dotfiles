@@ -1,4 +1,4 @@
-# This is Git's per-user configuration file.
+# Git's per user configuration file.
 [user]
 	name = Sharath Ciddu
 	email = sharathciddu@gmail.com
@@ -11,3 +11,8 @@
 	editor = nvim
 [alias]
 	adog = "log --all --decorate --oneline --graph"
+	guidiff = "difftool --dir-diff --no-symlinks -g"
+	gdiff = "difftool --dir-diff --no-symlinks -g"
+
+[diff]
+	tool = bc4
