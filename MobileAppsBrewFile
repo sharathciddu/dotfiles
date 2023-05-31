@@ -17,7 +17,6 @@ cask 'flutter'
 
 # iOS
 brew 'cocoapods'
-brew 'swift-format'
 brew 'swiftformat'
 cask 'swiftformat-for-xcode'
 
