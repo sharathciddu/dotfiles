@@ -5,8 +5,8 @@ else
   eval "$(/usr/local/bin/brew shellenv)"
 fi
 
-export JAVA_HOME="/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/"
-export PATH="$JAVA_HOME:$PATH"
+# Java
+eval "$(jenv init -)"
 
 # Python
 export PYENV_ROOT="$HOME/.pyenv"
