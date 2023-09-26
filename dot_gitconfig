@@ -16,3 +16,5 @@
 
 [diff]
 	tool = bc4
+[pager]
+	log = less -F -X
