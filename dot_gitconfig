@@ -18,3 +18,6 @@
 	tool = bc4
 [pager]
 	log = less -F -X
+
+[commit]
+	autostage = true
