@@ -59,9 +59,9 @@ cask 'google-chrome'
 
 
 # Editors
+cask 'goland'
 cask 'intellij-idea-ce'
 cask 'pycharm-ce'
-cask 'goland'
 cask 'visual-studio-code'
 cask 'webstorm'
 
