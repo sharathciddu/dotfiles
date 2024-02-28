@@ -41,6 +41,7 @@ cask 'iterm2'
 cask 'meld'
 cask 'postman'
 cask 'spectacle'
+cask 'obsidian'
 
 # Libraries and Runtime
 brew 'go'
